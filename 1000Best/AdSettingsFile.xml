@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AdSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CultureDescriptors>
+    <AdCultureDescriptor CultureName="en-US">
+      <Probabilities Probability="80" AdType="PubCenter" AppID="b1f2fec9-b363-4e09-b0d9-123123" SecondaryID="2222" />
+      <Probabilities Probability="20" AdType="AdDuplex" AppID="40467"/>
+      <Probabilities AdType="DefaultHouseAd" />
+    </AdCultureDescriptor>
+    <AdCultureDescriptor CultureName="nl-NL">
+      <Probabilities Probability="10" AdType="PubCenter" AppID="b1f2fec9-b363-4e09-b0d9-43234234123" SecondaryID="3333" />
+      <Probabilities Probability="90" AdType="AdDuplex" AppID="40467"/>
+      <Probabilities AdType="DefaultHouseAd" />
+    </AdCultureDescriptor>
+    <AdCultureDescriptor CultureName="default">
+      <Probabilities Probability="60" AdType="PubCenter" AppID="b1f2fec9-b363-4e09-b0d9-1232" SecondaryID="22" />
+      <Probabilities Probability="40" AdType="AdDuplex" AppID="40467"/>
+      <Probabilities AdType="DefaultHouseAd" />
+    </AdCultureDescriptor>
+  </CultureDescriptors>
+</AdSettings>

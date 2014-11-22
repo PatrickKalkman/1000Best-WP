@@ -1,0 +1,41 @@
+﻿<UserControl x:Class="_1000Best.Views.Best1000AdControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:AdRotatorWP8="clr-namespace:AdRotator;assembly=AdRotator"
+             mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    d:DesignHeight="80" d:DesignWidth="480">
+    
+    <Grid x:Name="LayoutRoot" Background="{StaticResource PhoneChromeBrush}">
+        <AdRotatorWP8:AdRotatorControl 
+		x:Name="AdRotator"
+		AdHeight="80"
+		AdWidth="480"
+        AdDuplexAppId="111"
+        DefaultAdType="AdDuplex"            
+		DefaultSettingsFileUri="/_1000Best;component/AdSettingsFile.xml"
+        SettingsUrl="http://www.semanticarchitecture.net/wpads/1000best_adsettings_wp8.xml"/>
+    </Grid>
+</UserControl>
+
+
+<!--<adRotator:AdRotatorControl 
+            x:Name="AdRotatorControl" Width="480" Height="80" 
+            SettingsUrl="http://mydomain.com/myAdSettings.xml" Grid.Row="2"
+            DefaultSettingsFileUri = "/_1000Best;component/defaultAdSettings.xml"
+            PubCenterAdUnitId="10071477"
+            PubCenterAppId="b1f2fec9-b363-4e09-b0d9-205492660556"
+            AdDuplexAppId="122"
+            DefaultAdType="AdDuplex"/>-->
+<!--<adRotator:AdRotatorControl 
+            x:Name="AdRotatorControl" Width="480" Height="80" 
+            SettingsUrl="http://mydomain.com/myAdSettings.xml" Grid.Row="2"
+            DefaultSettingsFileUri = "/_1000Best;component/AdSettingsFile.xml"
+            PubCenterAdUnitId="Image480_80"
+            PubCenterAppId="test_client"
+            AdDuplexAppId="333"
+            DefaultAdType="PubCenter" />-->
