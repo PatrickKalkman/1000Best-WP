@@ -1,7 +1,8 @@
 ![1000 Best](http://cdn.marketplaceimages.windowsphone.com/v8/images/a055fdad-4732-4f7c-9abe-64fd66575595?imageType=ws_icon_large)
 
-1000Best-WP
-===========
+#1000Best-WP
+
+[![Build status](https://ci.appveyor.com/api/projects/status/qkbxr8tymyxj0ced?svg=true)](https://ci.appveyor.com/project/kalkie/1000best-wp)
 
 Show and play the 1000 best songs ever on your Windows Phone
 
